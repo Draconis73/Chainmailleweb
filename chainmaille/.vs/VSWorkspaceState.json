@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\armor-galleries",
+    "\\src\\app\\components\\credits",
+    "\\src\\app\\components\\footer",
+    "\\src\\app\\components\\galleries",
+    "\\src\\app\\components\\jewelry-galleries",
+    "\\src\\app\\components\\misc-galleries"
+  ],
+  "SelectedNode": "\\src\\app\\components\\credits\\credits.component.html",
+  "PreviewInSolutionExplorer": false
+}
