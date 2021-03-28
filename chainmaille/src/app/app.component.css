@@ -1,4 +1,4 @@
-/*#container {
+#container {
   background-image: -webkit-linear-gradient(0deg,rgba(14,0,196,1.00) 0%,rgba(0,0,0,1.00) 49.74%,rgba(14,0,196,1.00) 100%);
   background-image: -moz-linear-gradient(0deg,rgba(14,0,196,1.00) 0%,rgba(0,0,0,1.00) 49.74%,rgba(14,0,196,1.00) 100%);
   background-image: -o-linear-gradient(0deg,rgba(14,0,196,1.00) 0%,rgba(0,0,0,1.00) 49.74%,rgba(14,0,196,1.00) 100%);
@@ -11,10 +11,13 @@
   background-color: #878484;
   color: #FF0000;
   border-radius: 75px;
+  padding-top: 15px;
   padding-bottom: 30px;
-  height: auto;
-  width: 85%;
+  padding-left: 5px;
+  padding-right: 10px;
+  height: 100%;
+  width: auto;
   clear: right;
   text-indent: 30px;
-  padding-left: 1%;
-}*/
+  /*padding-left: 1%;*/
+}
