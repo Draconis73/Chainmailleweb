@@ -2,55 +2,26 @@
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  /*min-height: 100px;*/
-  /*height: auto;*/
-  /*width: 100%;*/
-  /*margin-top: 0px;
-  margin-left: 0px;*/
-  /*font-size: large;*/
-  /*background-image: url(/assets/Images/FPAA16-716small.jpg);*/
-  /*background-repeat: no-repeat;
-  background-position: right;*/
   background-color: #0E00C4;
   border-style: solid;
   border-width: thin;
   border-color: #000000;
   border-radius: 50px;
-  /*margin-bottom: 0px;*/
-  /*min-height: 100px;*/
 }
-/*h1 {
-  font-style: oblique;
-  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-  font-weight: bold;
-  font-size: 50px;*/
-  /*margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  padding-left: 25px;
-  padding-top: 0px;*/
-  /*color: #FFFD00;*/
-  /*top: 15%;*/
-  /*position: relative;
-  vertical-align: middle;*/
-  
-/*}*/
-
 #text {
-  
+  margin:auto;
   text-align: center;
   font-style: oblique;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
   font-weight: bold;
   font-size: 50px;
-  align-content:center;
   color: #FFFD00;
   padding-left: 15px;
-  /*vertical-align: middle;*/
-  /*min-height: 100px;*/
+  padding-right: 5px;
+  vertical-align:central;
+  
 }
+
 #logo {
   flex: 0 0 100px;
-  /*border-style:hidden;*/
-  /*border-radius: 50px;*/
 }
