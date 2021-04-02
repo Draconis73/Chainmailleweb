@@ -1,12 +1,16 @@
 ><div id="container">
-   <div>
-     <app-header></app-header>
-     <app-navigation></app-navigation>
-     <div id="main">
-       <router-outlet></router-outlet>
-     </div>
-     <div style="clear:both"></div>
-   </div>
+  
+    <app-header></app-header>
+    <div id="content">
+      <div id="nav">
+        <app-navigation></app-navigation>
+      </div>
+
+      <div id="main">
+        <router-outlet></router-outlet>
+      </div>
+      <div style="clear:both"></div>
+    </div>
   
   <app-footer></app-footer>
 </div>
