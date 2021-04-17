@@ -4,13 +4,14 @@
   background-image: -o-linear-gradient(0deg,rgba(14,0,196,1.00) 0%,rgba(0,0,0,1.00) 49.74%,rgba(14,0,196,1.00) 100%);
   background-image: linear-gradient(90deg,rgba(14,0,196,1.00) 0%,rgba(0,0,0,1.00) 49.74%,rgba(14,0,196,1.00) 100%);
   border-radius: 50px;
-  height: 100vh;
+  min-height: 100vh;
+  margin-bottom: -1.25vh;
 }
 #content{
   display: flex;
   align-items: stretch;
   width: auto;
-  /*min-height:100%;*/
+  
 }
 #nav{
   flex: 0 0 145px;
@@ -19,12 +20,14 @@
 #main {
   background-color: #878484;
   color: #FF0000;
-  border-radius: 75px;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  padding-left: 5px;
-  padding-right: 10px;
+  border-radius: 50px;
+  padding: 15px, 10px, 30px, 5px;
   height: auto;
   width: 100%;
   text-indent: 30px;
+}
+
+#footer {
+  border-radius: 50px;
+  width: auto;
 }
