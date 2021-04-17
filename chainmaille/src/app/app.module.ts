@@ -1,9 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-//import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-//import { MatCarouselModule } from '@ngbmodule/material-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +19,6 @@ import { JewelryGalleriesComponent } from './components/jewelry-galleries/jewelr
 import { MiscGalleriesComponent } from './components/misc-galleries/misc-galleries.component';
 import { ErrorsComponent } from './components/errors/errors.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -46,10 +42,6 @@ import { from } from 'rxjs';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    //BrowserAnimationsModule,
-    //FormsModule,
-    //ReactiveFormsModule,
-    //MatCarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
