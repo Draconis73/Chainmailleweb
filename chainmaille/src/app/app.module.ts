@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatCarouselModule } from '@ngbmodule/material-carousel';
+//import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+//import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//import { MatCarouselModule } from '@ngbmodule/material-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -46,10 +46,10 @@ import { from } from 'rxjs';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatCarouselModule.forRoot()
+    //BrowserAnimationsModule,
+    //FormsModule,
+    //ReactiveFormsModule,
+    //MatCarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
