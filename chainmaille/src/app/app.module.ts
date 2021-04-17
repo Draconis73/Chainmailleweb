@@ -18,7 +18,6 @@ import { ArmorGalleriesComponent } from './components/armor-galleries/armor-gall
 import { JewelryGalleriesComponent } from './components/jewelry-galleries/jewelry-galleries.component';
 import { MiscGalleriesComponent } from './components/misc-galleries/misc-galleries.component';
 import { ErrorsComponent } from './components/errors/errors.component';
-import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +36,6 @@ import { CarouselComponent } from './carousel/carousel.component';
     JewelryGalleriesComponent,
     MiscGalleriesComponent,
     ErrorsComponent,
-    CarouselComponent
   ],
   imports: [
     BrowserModule,
